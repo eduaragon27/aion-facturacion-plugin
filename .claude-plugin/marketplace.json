@@ -1,0 +1,17 @@
+{
+  "name": "aion",
+  "owner": {
+    "name": "Aion Media"
+  },
+  "metadata": {
+    "description": "Plugins de Aion Media para trabajar con Claude: facturación electrónica SUNAT (Perú)."
+  },
+  "plugins": [
+    {
+      "name": "aion-facturacion",
+      "source": "./aion-facturacion",
+      "description": "Emite facturas, boletas, notas, guías de remisión y notas de venta ante SUNAT conversando con Claude.",
+      "category": "productivity"
+    }
+  ]
+}
