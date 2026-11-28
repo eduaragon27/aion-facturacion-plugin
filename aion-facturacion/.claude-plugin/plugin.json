@@ -1,6 +1,6 @@
 {
   "name": "aion-facturacion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Facturación electrónica SUNAT (Perú) con Claude: emite facturas, boletas, notas de crédito y débito, guías de remisión y notas de venta, consulta tus ventas y envía comprobantes por correo, siempre con vista previa antes de emitir en producción.",
   "author": {
     "name": "Aion Media",

@@ -44,3 +44,4 @@ Según lo que pida el usuario, sigue con la skill que corresponda:
 - El servicio calcula IGV, totales, monto en letras y correlativo: no los calcules tú.
 - Los enlaces de `links` (PDF, XML, CDR) vencen a los 30 minutos: cópialos exactamente como llegan y compártelos solo con el usuario. Da también el enlace `panel`.
 - Si una herramienta devuelve un error, léelo: viene en español con el campo exacto que hay que corregir.
+- **Error de licencia** (campo license: cupo agotado, licencia vencida o términos sin aceptar): no es un dato mal puesto, así que no lo reintentes ni cambies la referencia. Explícale al usuario el mensaje y dónde resolverlo: **Configuración → Licencia y módulos**. Una subida a un plan de mayor cupo se activa apenas la aprueban; con el cupo agotado aún puede emitir notas de crédito y débito para corregir lo ya emitido, y consultar, descargar y reenviar todo.

@@ -38,6 +38,7 @@ Herramientas del servidor `facturacion`: `company-info`, `search-customers`, `sa
 ## Errores frecuentes
 
 - Los errores llegan en español con el campo exacto (`- customer.document_number: …`). Corrige ese dato y repite la vista previa.
+- Si el error es de licencia (cupo agotado o licencia vencida), sigue lo que indica la skill `primeros-pasos`: explícalo y no reintentes.
 - Dólares: `currency` "USD" con el precio de cada línea; el tipo de cambio lo pone el servicio (consúltalo con `exchange-rate` si el usuario lo pide).
 - Inventario por series: si el producto lo exige, cada línea lleva `serial_numbers` (una serie por unidad).
 - Un comprobante aceptado **no se edita**: se corrige con nota o se da de baja.
