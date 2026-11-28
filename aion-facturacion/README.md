@@ -1,6 +1,6 @@
 # Aion Facturación para Claude
 
-Emite comprobantes electrónicos ante **SUNAT (Perú)** conversando con Claude: facturas, boletas, notas de crédito y débito, guías de remisión y notas de venta. Claude consulta tu empresa, busca clientes y productos, te muestra una **vista previa con los totales** y solo emite con tu visto bueno.
+Emite comprobantes electrónicos ante **SUNAT (Perú)** conversando con Claude: facturas, boletas, notas de crédito y débito, guías de remisión, notas de venta y cotizaciones. Claude consulta tu empresa, busca clientes y productos, te muestra una **vista previa con los totales** y solo emite con tu visto bueno.
 
 > «Emite una boleta para Ana Quispe, DNI 01234567, por 2 cajas de paracetamol.»
 
@@ -13,6 +13,7 @@ Emite comprobantes electrónicos ante **SUNAT (Perú)** conversando con Claude: 
 | `consultar-ventas` | Reporte de ventas, buscar comprobantes, enviarlos por correo, reintentar y dar de baja. |
 | `guias-de-remision` | Guías de remisión remitente (09) y transportista (31). |
 | `notas-de-venta` | Notas de venta internas y su conversión en boleta o factura. |
+| `cotizaciones` | Cotizaciones con enlace para que el cliente las acepte, envío por correo y conversión en comprobante o nota de venta. |
 
 El plugin conecta el servidor MCP de Aion Facturación (`https://facturacion.aionstoreperu.com/mcp`). El servicio calcula el IGV, los totales y el correlativo, y aplica las mismas reglas que la web: lo que no se puede hacer en la web tampoco se puede hacer desde Claude.
 

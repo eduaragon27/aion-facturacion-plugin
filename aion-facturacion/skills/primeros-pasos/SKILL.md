@@ -13,8 +13,8 @@ Llama a la herramienta `company-info`.
 
 - **Si no hay conexión o pide autorización**: explica al usuario que debe autorizar el acceso. En Claude Code, que escriba `/mcp`, elija `facturacion` y pulse *Authenticate*. Se abre Aion Facturación: inicia sesión, elige la empresa y el nivel de acceso:
   - *Solo consultar*: ver empresa, clientes, productos, comprobantes y reportes.
-  - *Consultar y registrar*: además crear o editar clientes y productos.
-  - *También emitir*: además emitir comprobantes, guías, bajas y correos.
+  - *Consultar y registrar*: además crear o editar clientes y productos, y registrar cotizaciones.
+  - *También emitir*: además emitir comprobantes, guías, bajas y correos (también enviar y convertir cotizaciones).
 - Si el usuario aún no tiene cuenta, que se registre en https://facturacion.aionstoreperu.com (empieza en beta, gratis y sin valor tributario).
 - Si su programa no admite OAuth, puede crear un token en **Integraciones → Agente de IA** y usarlo como cabecera `Authorization: Bearer <token>`.
 
@@ -37,6 +37,7 @@ Según lo que pida el usuario, sigue con la skill que corresponda:
 - Ver ventas, buscar un comprobante, reenviarlo por correo o anularlo → `consultar-ventas`.
 - Guía de remisión → `guias-de-remision`.
 - Nota de venta (documento interno) y convertirla en boleta o factura → `notas-de-venta`.
+- Cotización, presupuesto o proforma para un cliente, enviarla y convertirla cuando la acepte → `cotizaciones`.
 
 ## Reglas que valen siempre
 
